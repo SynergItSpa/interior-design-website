@@ -1,12 +1,12 @@
-# Astro Starter Kit:
+# Plantilla de Sitio Web de Diseño de Interiores
 
-This is an Interior Design Website Template Built with Astro, React Js, TypeScript And Tailwind CSS.
+Esta es una plantilla profesional para sitios web de diseño de interiores, muebles y decoración, construida con Astro, React JS, TypeScript y Tailwind CSS.
 
-Developed with much love :), by Onwudebelu Prisca A.K.A. natural_tech_babe
+Desarrollada con mucho cariño por SynergIT para empresas de landing pages.
 
-## 🚀 Project Structure
+## 🚀 Estructura del Proyecto
 
-Inside of My Interior Design Template Project, you'll see the following folders and files:
+Dentro de este proyecto de plantilla de diseño de interiores, verás las siguientes carpetas y archivos:
 
 ```
 /
@@ -30,10 +30,10 @@ Inside of My Interior Design Template Project, you'll see the following folders 
 │       └── contact.astro
 └── package.json
 
-And other config files.
+Y otros archivos de configuración.
 ```
 
-## GitHub Repository
+## Repositorio en GitHub
 
-Feel free to check [my repo](https://github.com/PriscaTonia/interior-design-website)
-Also preview with [live link](https://interior-design-website-ntb.vercel.app/).
+Siéntete libre de revisar [nuestro repo](https://github.com/SynergItSpa/interior-design-website-template)
+También puedes previsualizar con [enlace en vivo](https://interior-design-website-synergit.vercel.app/).

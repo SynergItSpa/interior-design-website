@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import Logo from "../icons/logo.tsx";
-import useMediaQuery from "../utils/useMediaQuery.ts";
 import { motion } from "framer-motion";
+import { useState } from "react";
+import useMediaQuery from "../utils/useMediaQuery.ts";
+import SynergITLogo from "./synergit-logo.tsx";
 
 const Navbar = () => {
   const [toggled, setToggled] = useState(false);
@@ -13,23 +13,23 @@ const Navbar = () => {
     <div className="max-w-[1200px] px-12 xl:px-0 m-auto w-full py-11 flex justify-between items-center">
       <a href="/">
         {" "}
-        <Logo />
+        <SynergITLogo />
       </a>
 
       {/* Nav List for Desktop */}
       {matches && (
         <nav className="flex flex-row gap-6">
           <a href="/" className={linkStyle}>
-            Home
+            Inicio
           </a>
           <a href="/about" className={linkStyle}>
-            About Us
+            Acerca de
           </a>
           <a href="/services" className={linkStyle}>
-            Services
+            Servicios
           </a>
           <a href="/contact" className={linkStyle}>
-            Contact Us
+            Contacto
           </a>
         </nav>
       )}
@@ -65,16 +65,16 @@ const Navbar = () => {
           className="flex flex-col fixed h-screen bg-white w-[75%] md:w-[90%] text-black bottom-0 left-0 gap-6 items-center justify-center"
         >
           <a href="/" className={linkStyle}>
-            Home
+            Inicio
           </a>
           <a href="/about" className={linkStyle}>
-            About Us
+            Acerca de
           </a>
           <a href="/services" className={linkStyle}>
-            Services
+            Servicios
           </a>
           <a href="/contact" className={linkStyle}>
-            Contact Us
+            Contacto
           </a>
         </motion.nav>
       )}

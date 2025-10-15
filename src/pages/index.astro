@@ -1,67 +1,67 @@
 ---
-import MainLayout from '../layouts/main-layout.astro'
 import Button from '../components/button.tsx'
+import Experience from '../components/experience.tsx'
 import ArrowSec from '../icons/arrow-sec.tsx'
 import CallIcon from "../icons/call.tsx"
-import Experience from '../components/experience.tsx'
+import MainLayout from '../layouts/main-layout.astro'
 
 
 const services = [
 	{
-		title: 'Project Plan',
-		text: 'There are many variations of the passages of lorem Ipsum from available, majority.'
+		title: 'Diseño Responsivo',
+		text: 'Este template se adapta perfectamente a todos los dispositivos, desde móviles hasta desktops.'
 	},
 	{
-		title: 'Interior Work',
-		text: 'There are many variations of the passages of lorem Ipsum from available, majority.'
+		title: 'Secciones Personalizables',
+		text: 'Incluye secciones para servicios, proyectos, testimonios y más, fáciles de editar.'
 	},
 	{
-		title: 'Realization',
-		text: 'There are many variations of the passages of lorem Ipsum from available, majority.'
+		title: 'Optimizado para SEO',
+		text: 'Construido con mejores prácticas para que tu sitio aparezca en los primeros resultados de búsqueda.'
 	},
 ]
 
 const reviews = [
 	{
 		img: '/natasha.png',
-		name: 'Nattasha Mith',
-		location: 'Sydney, USA',
-		review: 'Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.'
+		name: 'Ana López',
+		location: 'Madrid, España',
+		review: 'Este template me permitió crear una landing page profesional para mi negocio de muebles en poco tiempo.'
 	},
 	{
 		img: '/benny.png',
-		name: 'Benny Roll',
-		location: 'Sydney, New York',
-		review: 'Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.'
+		name: 'Carlos Ruiz',
+		location: 'Barcelona, España',
+		review: 'Fácil de personalizar y con un diseño moderno que atrae a mis clientes de decoración.'
 	},
 	{
 		img: '/raymond.png',
-		name: 'Raymond Galario',
-		location: 'Sydney, Australia',
-		review: 'Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.'
+		name: 'María García',
+		location: 'Valencia, España',
+		review: 'Ideal para promocionar servicios de diseño de interiores. ¡Altamente recomendado!'
 	},
 ]
 
 const projects = [
 	{
 		img: '/project1.png',
-		name: 'Modern Kitchen',
-		text: 'Decor / Artchitecture'
+		name: 'Cocina Moderna',
+		text: 'Decoración / Arquitectura'
 	},
 	{
 		img: '/project2.png',
-		name: 'Modern Bedroom',
-		text: 'Decor / Artchitecture'
+		name: 'Dormitorio Moderno',
+		text: 'Decoración / Arquitectura'
 	},
 	{
 		img: '/project3.png',
-		name: 'Modern Dining Hall',
-		text: 'Decor / Artchitecture'
+		name: 'Comedor Elegante',
+		text: 'Decoración / Arquitectura'
 	},
 	{
 		img: '/project4.png',
-		name: 'Modern Living Room',
-		text: 'Decor / Artchitecture'
+		name: 'Sala de Estar Acogedora',
+		text: 'Decoración / Arquitectura'
 	},
 ]
 
@@ -85,34 +85,34 @@ const clientLogos = [
 
 const experiences = [
 	{
-		num: 12,
-		text:'Years Of Experiance'
+		num: 100,
+		text:'Descargas Exitosas'
 	},
 	{
-		num: 85,
-		text:'Success Project'
+		num: 50,
+		text:'Proyectos Completados'
 	},
 	{
-		num: 15,
-		text:'Active Project'
+		num: 20,
+		text:'Clientes Satisfechos'
 	},
 	{
 		num: 95,
-		text:'Happy Customers'
+		text:'Valoraciones Positivas'
 	},
 ]
 
 ---
 
-<MainLayout title = 'Interior Design Home'>
+<MainLayout title = 'Plantilla de Diseño de Interiores'>
 
 	<!-- Banner -->
 	
 	<section class="w-full bg-hero bg-no-repeat bg-cover h-screen lg:min-h-[110vh] px-12 xl:px-0 flex items-center ">
 		<div class="lg:max-w-[1200px] w-full mx-auto flex flex-col">
-			<h1 class="text-[40px] leading-[50px] md:text-[60px] xl:text-[85px] pb-4 font-dm md:leading-[106.25px] w-full xl:max-w-[50%] text-primary-200"> Let Your Home Be Unique </h1>
-			<p class="text-base md:text-[22px] pb-5 font-jost text-text-gray-200 w-full lg:max-w-[50%]">There are many variations of the passages of lorem Ipsum fromavailable,variations of the passages.</p>
-			<Button text="Get Started"/>
+			<h1 class="text-[40px] leading-[50px] md:text-[60px] xl:text-[85px] pb-4 font-dm md:leading-[106.25px] w-full xl:max-w-[50%] text-primary-200"> Plantilla Profesional para Diseños de Interiores </h1>
+			<p class="text-base md:text-[22px] pb-5 font-jost text-text-gray-200 w-full lg:max-w-[50%]">Descubre esta plantilla perfecta para crear landing pages impactantes en el nicho de diseño de interiores, muebles y decoración. Fácil de personalizar y optimizada para conversiones.</p>
+			<Button text="Comprar Ahora"/>
 		</div>
 	</section>
 
@@ -125,7 +125,7 @@ const experiences = [
 					<div class="w-full max-w-[358px] mx-auto flex flex-col justify-center items-center gap-3 md:gap-5">
 						<h3 class="text-text-blue font-dm text-[22px] md:text-[25px] leading-loose">{service.title}</h3>
 						<p class="text-base md:text-[22px] tracking-tight font-jost text-text-gray leading-[33px] text-center"> {service.text}</p>
-						<a href="/services" class="text-text-gray-200 leading-snug text-lg tracking-tight font-jost font-semibold gap-2 py-4 md:py-8 startCenter">Read More <ArrowSec /></a>
+						<a href="/services" class="text-text-gray-200 leading-snug text-lg tracking-tight font-jost font-semibold gap-2 py-4 md:py-8 startCenter">Leer Más <ArrowSec /></a>
 					</div>
 				)
 			})
@@ -136,16 +136,16 @@ const experiences = [
 
 	<section class="w-full lg:max-w-[1200px] mx-auto px-12 xl:px-0 flex flex-col-reverse justify-center items-center lg:grid grid-cols-2 gap-[75px] pt-[100px] lg:pt-[200px]">
 		<div class="flex flex-col gap-8 max-w-[472px] items-center lg:items-start py-6">
-			<h2 class="text-[30px] text-center capitalize lg:text-left font-dm tracking-wide leading-8 md:leading-[62.50px] md:text-[50px] text-text-blue ">We Create The Art Of Stylish Living Stylishly</h2>
-			<p class="text-base md:text-[22px] text-center lg:text-left tracking-tight font-jost text-text-gray leading-[33px]">It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.</p>
+			<h2 class="text-[30px] text-center capitalize lg:text-left font-dm tracking-wide leading-8 md:leading-[62.50px] md:text-[50px] text-text-blue ">Crea Sitios Web Impactantes para tu Negocio de Diseño</h2>
+			<p class="text-base md:text-[22px] text-center lg:text-left tracking-tight font-jost text-text-gray leading-[33px]">Esta plantilla incluye todo lo necesario para promocionar tus servicios de diseño de interiores, muebles y decoración. Con secciones optimizadas y un diseño moderno que convierte visitantes en clientes.</p>
 			<div class="flex gap-4 pt-3 items-center">
 				<CallIcon/>
 				<p class="flex flex-col text-text-gray-200 font-jost tracking-tight">
 					<span class="text-2xl font-bold leading-9 ">012345678</span>
-					<span class="text-[22px] leading-8">Call Us Anytime</span>
+					<span class="text-[22px] leading-8">Contáctanos Ahora</span>
 				</p>
 			</div>
-			<Button text="Get Free Estimate"/>
+			<a href="https://be.synergit.cl/"><Button text="Agenda una reunión gratuita"/></a>
 		</div>
 
 		<div>
@@ -157,7 +157,7 @@ const experiences = [
 
 	<section class="lg:max-w-[1200px] px-12 xl:px-0 w-full mx-auto pt-[100px] lg:pt-[200px] ">
 	<div class="w-full flex flex-col bg-primary-300 rounded-[48px] px-6 py-[88px]">
-		<h2 class="font-dm tracking-wide text-center leading-[37px] lg:leading-[62.50px] text-[30px] lg:text-[50px] w-full lg:max-w-[50%] pb-9 mx-auto">What the People Thinks About Us</h2>
+		<h2 class="font-dm tracking-wide text-center leading-[37px] lg:leading-[62.50px] text-[30px] lg:text-[50px] w-full lg:max-w-[50%] pb-9 mx-auto">Lo Que Dicen Nuestros Clientes Sobre la Plantilla</h2>
 		<div class="flex flex-col gap-8 lg:gap-10 lg:flex-row justify-between">
 			{
 			reviews.map((rev) => {
@@ -192,8 +192,8 @@ const experiences = [
 	<!-- Projects Section -->
 
 	<section class="lg:max-w-[1200px] px-12 xl:px-0 w-full mx-auto pt-[100px] lg:pt-[200px] ">
-		<h2 class="font-dm tracking-wide text-center leading-[37px] lg:leading-[62.50px] text-[30px] lg:text-[50px] w-full lg:max-w-[50%] pb-2 mx-auto">Follow Our Projects</h2>
-		<p class="text-base md:text-[22px] text-center tracking-tight font-jost text-text-gray leading-[33px] lg:max-w-[60%] mx-auto">It is a long established fact that a reader will be distracted by the of readable content of page  lookings at its layouts  points.</p>
+		<h2 class="font-dm tracking-wide text-center leading-[37px] lg:leading-[62.50px] text-[30px] lg:text-[50px] w-full lg:max-w-[50%] pb-2 mx-auto">Ejemplos de Diseños Incluidos</h2>
+		<p class="text-base md:text-[22px] text-center tracking-tight font-jost text-text-gray leading-[33px] lg:max-w-[60%] mx-auto">Esta plantilla viene con galerías de proyectos predefinidas que puedes personalizar con tus propias imágenes y descripciones para mostrar tu portafolio.</p>
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-x-[104px] lg:gap-y-[56px] mt-12 lg:mt-[93px]">
 			{
 			projects.map((proj) => {

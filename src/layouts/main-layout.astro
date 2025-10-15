@@ -1,6 +1,6 @@
 ---
-import Navbar from '../components/navbar.tsx'
 import Footer from '../components/footer.tsx'
+import Navbar from '../components/navbar.tsx'
 
 export interface LayoutProps {
   title : string 
@@ -10,11 +10,11 @@ const { title } = Astro.props as LayoutProps
 ---
 
 
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
-		<meta name="description" content="Interior Design Website Template" />
+		<meta name="description" content="Plantilla Profesional para Sitios Web de Diseño de Interiores, Muebles y Decoración" />
     <meta title = {title}/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +31,7 @@ const { title } = Astro.props as LayoutProps
       <Footer />
     </main>
     <p class="tracking-tight text-base text-center border border-gray-300 bg-white py-10 lg:text-[22px] lg:leading-[33px] font-jost text-text-gray">
-        Copyright © Interno | Designed by Onwudebelu Prisca Ebubechukwu
+        Copyright © SynergIT | Plantilla para Diseñadores de Interiores, Mueblistas y Decoradores
     </p>
   </body>
 </html>
