@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "template-interior-design",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
